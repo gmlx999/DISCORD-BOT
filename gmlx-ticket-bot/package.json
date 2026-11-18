@@ -1,0 +1,39 @@
+{
+  "name": "gmlx-ticket-bot",
+  "version": "2.1.0",
+  "description": "Discord ticket bot with forms, transcripts, ratings, giveaways, reaction roles and 24/7 voice — by GG/GMLX",
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "discord.js",
+    "tickets",
+    "ticket-bot",
+    "giveaway",
+    "transcripts",
+    "spanish",
+    "english"
+  ],
+  "homepage": "https://github.com/TU-USUARIO/gmlx-ticket-bot#readme",
+  "bugs": {
+    "url": "https://github.com/TU-USUARIO/gmlx-ticket-bot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TU-USUARIO/gmlx-ticket-bot.git"
+  },
+  "license": "MIT",
+  "author": "GG/GMLX",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.19.0",
+    "discord.js": "^14.16.0",
+    "dotenv": "^16.4.5",
+    "libsodium-wrappers": "^0.7.15"
+  }
+}
